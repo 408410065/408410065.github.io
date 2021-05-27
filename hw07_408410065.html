@@ -1,0 +1,41 @@
+<HTML>
+  <HEAD>
+    <TITLE>hw7_408410065</TITLE>
+    <SCRIPT LANGUAGE="javascript">
+      function doubleClick()
+      {
+        window.alert("已經點兩下囉");
+      } 
+    </SCRIPT>
+
+    <script language="javascript">
+       function Today(){
+       var Today=new Date();
+       var day_list = ['日', '一', '二', '三', '四', '五', '六'];
+       var day =Today.getDay();
+       alert("今天是 " + Today.getFullYear()+ " 年 " + (Today.getMonth()+1) + " 月 " + Today.getDate() + " 日" +"星期" + day_list[day]);
+       }
+    </script>
+
+    <script language="javascript">
+      function Onchange(){
+      alert('晚餐已選擇');
+      }
+    </script>
+
+  </HEAD>
+  <BODY>
+      <br><input type="button" ID="button1" value="請點我" 
+      ondblclick="javascript:doubleClick();">
+
+      <br><input type="button" onclick="Today()" value="今天星期幾">
+
+      <br><select onchange="Onchange()">
+        <option>義大利麵</option>
+        <option>咖哩飯</option>
+        <option>拉麵</option>
+        <option>燒臘</option>
+        <option>排骨便當</option>
+      </select>
+  </BODY>
+</HTML> 
