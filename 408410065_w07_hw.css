@@ -1,0 +1,59 @@
+﻿.outer{
+ }
+.red1{  font-style:normal;
+	font-size:2; 
+	font-weight:300;
+	font-family:新細明體;
+	color:red;
+	width:500px;
+	height:60px;
+	margin:3;
+	background-color:pink;
+	text-align:center;}
+
+ .red2{ 
+	font-style:italic;
+	font-size:20; 
+	font-weight:1000;
+	font-family:新細明體;
+	color:red;
+	width:500px;
+	height:300px;
+	margin:3;
+	background-color:pink;
+	text-align:center;}
+
+ .blue1{float:left;
+	font-style:oblique; 
+	font-size:10;
+	font-weight:100;
+	font-family:微軟正黑體體;
+	color:blue;
+	width:100px;
+	height:150px;
+	margin:3;
+	background-color:orange;
+	text-align:center;}
+
+ .blue2{float:left;
+	font-style:italic; 
+	font-size:15;
+	font-weight:900;
+	font-family:微軟正黑體體;
+	color:blue;
+	width:100px;
+	height:150px;
+	margin:3;
+	background-color:orange;
+	text-align:center;}
+
+ .green{float:left;
+	font-style:normal;
+	font-size:4; 
+	font-family:標楷體;
+	color:green;
+	width:300px;
+	height:150px;
+	margin:3;
+	background-color:yellow;
+	text-align:center;}
